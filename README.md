@@ -21,7 +21,6 @@
 |   :-:    | --- |
 | OS       | Windows 10 Pro |
 | Version  | Minecraft Education Edition 1.19.0 |
-|
 
 ## 備考
 - 6月にある程度作ったっきり進めてない
