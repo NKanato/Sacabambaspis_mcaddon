@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Sacabambaspis Add-On!",
+    "name": "Sacabam Pack",
+    "uuid":"80c1ea09-27f8-4965-95db-316f827fc80b",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+  "modules":
+    [
+      {
+        "description": "Sacabambaspis Add-On!",
+          "type": "data",
+          "uuid": "9f5c3837-f78a-4ce2-b3af-57105469de25",
+          "version": [1, 0, 0]
+      }
+    ],
+  "dependencies": [
+    {
+     "uuid":"769944df-f586-4aba-a06a-2caf269d1656",//UUID from the header section of manifest.json in My_RESOURCE_Pack
+      "version":[1,0,0]
+    }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "compass:sacabambaspis",
+            "min_engine_version": "1.8.0",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/sacabambaspis"
+            },
+            "geometry": {
+                "default": "geometry.sacabambaspis"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "look_at_target":"animation.common.look_at_target",
+                "swim": "animation.model.sacabambaspis",
+                "sacabambaspis_controller": "controller.animation.sacabambasps.new"
+            },
+            "scripts": {
+                "animate": [
+                    "sacabambaspis_controller"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#505152",
+                "overlay_color": "#f7e4ba"
+            }
+        }
+    }
+}

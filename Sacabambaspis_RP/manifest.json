@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Sacabambaspis Add-On!",
+      "name": "Sacabam Pack",
+      "uuid":"769944df-f586-4aba-a06a-2caf269d1656",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+     },
+     "metadata": {
+      "generated_with": {
+        "blockbench_entity_wizard": ["1.1.1"]
+      }
+    },
+    "modules": [
+      {
+        "description": "My First Add-On!",
+        "type": "resources",
+        "uuid": "ed7a78a4-880b-434e-8ce9-71cb9ea62a60",
+        "version": [1, 0, 0]
+      }
+    ]
+   }
